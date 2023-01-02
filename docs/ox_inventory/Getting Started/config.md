@@ -102,4 +102,10 @@ set datadog:site "datadoghq.com"
 
 # Set server hostname
 set datadog:hostname "FXServer"
+
+# Set discord webhook
+set inventory:webhook "https://discord.com/api/webhooks/YOUR_WEBHOOK"
+
+# Set drops create an object
+setr inventory:dropprops 1
 ```
